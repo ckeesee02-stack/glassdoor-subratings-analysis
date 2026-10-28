@@ -1,0 +1,17 @@
+{
+  "full_sample_ols": {
+    "n": 495,
+    "R2": 0.9339366881033238,
+    "adj_R2": 0.9331244342685285,
+    "F": 1149.808899749676,
+    "F_p": 3.0922906016422175e-284,
+    "residual_se": 0.0817508450727424,
+    "RMSE": 0.08117075065343037,
+    "MAE": 0.061208667588212265
+  },
+  "bootstrap_rank_tests": {
+    "P(Culture > Senior Management)": 0.893,
+    "P(Senior Management > Career)": 0.981,
+    "P(top three all > bottom three)": 0.998
+  }
+}

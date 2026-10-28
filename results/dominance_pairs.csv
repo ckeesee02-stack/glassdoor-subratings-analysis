@@ -1,0 +1,16 @@
+dominant,dominated,complete,conditional,general
+Compensation & Benefits,Work/Life Balance,False,False,True
+Culture & Values,Compensation & Benefits,False,False,True
+Culture & Values,Work/Life Balance,True,True,True
+Culture & Values,Senior Management,False,False,True
+Culture & Values,Career Opportunities,False,False,True
+Culture & Values,Diversity & Inclusion,True,True,True
+Senior Management,Compensation & Benefits,False,False,True
+Senior Management,Work/Life Balance,True,True,True
+Senior Management,Career Opportunities,False,False,True
+Senior Management,Diversity & Inclusion,True,True,True
+Career Opportunities,Compensation & Benefits,False,False,True
+Career Opportunities,Work/Life Balance,False,True,True
+Career Opportunities,Diversity & Inclusion,False,True,True
+Diversity & Inclusion,Compensation & Benefits,False,False,True
+Diversity & Inclusion,Work/Life Balance,False,False,True

@@ -1,0 +1,10 @@
+# Company-level Glassdoor data is not published (see data/README.md)
+data/glassdoor_sp500_medians.csv
+data/*.xlsx
+
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store

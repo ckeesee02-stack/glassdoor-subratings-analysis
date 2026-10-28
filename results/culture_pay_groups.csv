@@ -1,0 +1,6 @@
+group,n,mean_overall,median_overall
+"Top quartile Culture, top quartile Comp",66,4.1202,4.0835
+"Top quartile Culture, bottom quartile Comp",5,3.8709,3.9075
+"Bottom quartile Culture, top quartile Comp",11,3.4315,3.478
+"Bottom quartile Culture, bottom quartile Comp",70,3.2406,3.2828
+All companies,495,3.6996,3.7185
