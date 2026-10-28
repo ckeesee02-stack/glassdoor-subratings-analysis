@@ -10,8 +10,6 @@
 - **Culture & Values, Senior Management and Career Opportunities** form a clear top tier, outranking the other three sub-ratings in 99.8% of 1,000 bootstrap resamples.
 - **Compensation & Benefits** ranks only 5th in dominance, but it has by far the largest unique contribution (unique R² = .028).
 
-![Dominance analysis](figures/03_dominance_analysis.png)
-
 ## Identification of Research Goal
 
 Determining the percentage variation of Overall Glassdoor Ratings among S&P 500 companies that can be explained by Glassdoor's subratings, and seeing which sub-ratings are associated the most with the overall rating
@@ -147,11 +145,6 @@ This research serves as an Industrial/Organizational foundation regarding factor
 
 These results are correlational and do not establish causation. Glassdoor reviewers self-select, so ratings may overrepresent employees with strong positive or negative experiences (self-selection bias). The sample is limited to S&P 500 companies, so results may not generalize to smaller or public-sector employers. October 2026 ratings were month-to-date at the time of collection.
 
-## Figures
-
-![Correlation matrix](figures/01_correlation_matrix.png)
-![Rating distributions](figures/02_rating_distributions.png)
-
 ## Repository Structure
 
 ```
@@ -160,12 +153,11 @@ These results are correlational and do not establish causation. Glassdoor review
 │   ├── config.py               # Paths, variable names, seeds
 │   ├── data.py                 # Loads/validates data, rebuilds the 80/20 split
 │   ├── analysis.py             # Descriptives, VIF, OLS, dominance analysis, bootstrap, validation
-│   └── charts.py               # Figures
+│   └── charts.py               # Optional charts (written to figures/, not tracked)
 ├── data/
 │   ├── README.md               # Data dictionary, collection method, exclusions
 │   └── test_set_tickers.csv    # The 99 held-out test companies
 ├── results/                    # Every table reported in this README (CSV/JSON)
-├── figures/                    # Correlation matrix, box plot, dominance chart
 ├── tests/                      # Unit tests (run on synthetic data)
 └── requirements.txt
 ```

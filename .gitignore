@@ -8,3 +8,6 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# Charts are generated locally by run_all.py and not published
+figures/
